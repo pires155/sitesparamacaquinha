@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #ffe6f0;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
