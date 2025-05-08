@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffe6f0;
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .kitty {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #ff69b4;
+    font-size: 2rem;
+  }
+  
+  p {
+    color: #ff1493;
+    font-size: 1.2rem;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .links li {
+    margin: 15px 0;
+  }
+  
+  .links a {
+    text-decoration: none;
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+  
+  .links a:hover {
+    background-color: #ff85c1;
+  }
+
+  @keyframes corações {
+    0% { top: -50px; opacity: 1; }
+    100% { top: 100vh; opacity: 0; }
+  }
+  
+  @keyframes corações-diversos {
+    0% { top: -50px; left: 50%; }
+    100% { top: 100vh; left: 0%; }
+  }
+  
+  .links a:hover {
+    font-size: 1.4rem;
+    color: #ff1493;
+    text-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493;
+  }
+
+  .feliz {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    opacity: 0;
+    animation: aparecer 3s forwards;
+  }
+  
+  @keyframes aparecer {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .links a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .links a:hover {
+    background-color: #eb4f4f;
+    color: white;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .links a:hover {
+    box-shadow: 0 0 20px 5px #ff1493;
+  }
+  
+  .links a {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.5s ease;
+  }
+  
+  .links a:hover {
+    transform: translateY(-5px); /* Empurra para cima */
+  }
+  
+  
